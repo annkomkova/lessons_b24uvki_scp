@@ -1,0 +1,15 @@
+.fixed {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+}
+.responsive-width {
+  width: 15vw;
+  height: 15vw;
+  background-color: cornflowerblue;
+}
+.responsive-height {
+  width: 15vh;
+  height: 15vh;
+  background-color: cadetblue;
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width: 1400px) {
+  nav.sidebar {
+    display: none;
+  }
+}
+@media screen and (max-width: 1279px) {
+  article img {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 1023px) {
+  body article > * {
+    width: calc(100vw - 40px);
+  }
+  body article img {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav.menubar img {
+    width: 200px;
+  }
+}
