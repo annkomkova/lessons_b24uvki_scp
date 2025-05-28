@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="stylesheets/form.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a class="logo" href="form.html"></a>
+        <a href="append-remove.html">Магазин</a>
+        <a href="cursor.html">Mac</a>
+        <a href="dopfunctions.html">iPad</a>
+        <a href="js-basics.html">iPhone</a>
+        <a href="js-functions.html">Watch</a>
+        <a href="three.html">AirPods</a>
+        <a href="">TV и Дом</a>
+        <a href="">Только в Apple</a>
+        <a href="">Аксессуары</a>
+        <a href="">Поддержка</a>
+        <a class="search" href=""></a>
+        <a class="bag" href=""></a>
+      </div>
+    </nav>
+
+    <div class="banner">
+      <div class="colors">
+        <div class="color c1"></div>
+        <div class="color c2"></div>
+        <div class="color c3"></div>
+        <div class="color c4"></div>
+      </div>
+      <h1>Создайте свой Apple ID</h1>
+    </div>
+
+    <form action="" method="">
+      <div class="names">
+        <span class="placeholder">
+          <input type="text" name="name" value="" placeholder="" />
+        </span>
+
+        <span class="placeholder">
+          <input type="text" name="surname" value="" placeholder="" />
+        </span>
+      </div>
+
+      <div class="info">
+        <p>Дата рождения</p>
+        <div class="circle">?</div>
+        <div class="text-birth">
+          Эти данные определяют сервисы, доступные для учётной записи
+        </div>
+      </div>
+
+      <div class="date-of-birth">
+        <select name="day">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+
+        <select name="month">
+          <option value="jan">января</option>
+          <option value="feb">февраля</option>
+          <option value="mar">марта</option>
+          <option value="apr">апреля</option>
+          <option value="may">мая</option>
+        </select>
+
+        <select name="year">
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+        </select>
+      </div>
+
+      <hr />
+
+      <span class="placeholder">
+        <input type="email" name="email" value="" placeholder="" />
+      </span>
+      <p class="light">Это Ваш новый Аккаунт Apple.</p>
+      <span class="placeholder">
+        <input type="password" name="password" value="" placeholder="" />
+      </span>
+      <span class="placeholder">
+        <input type="password" name="conf-password" value="" placeholder="" />
+      </span>
+
+      <hr />
+
+      <select name="phone_code">
+        <option value="7">+7 (Россия)</option>
+        <option value="33">+33 (Франция)</option>
+        <option value="49">+49 (Германия)</option>
+        <option value="1">+1 (США)</option>
+      </select>
+
+      <span class="placeholder">
+        <input type="tel" name="tel" value="" placeholder="" />
+        <div class="circle">?</div>
+        <div class="text-tel">
+          Этот номер телефона будет использован для проверки Вашей личности и
+          восстановления пароля, если Вы его забудете.
+        </div>
+      </span>
+
+      <p class="light">
+        Введите номер телефона, к которому у вас всегда есть доступ. Этот номер
+        будет использоваться для подтверждения личности при выполнении входа на
+        новом устройстве или в новом браузере. За обмен сообщениями и передачу
+        данных может взиматься плата.
+      </p>
+      <p>Подтверждение:</p>
+
+      <div class="radio">
+        <div>
+          <input type="radio" name="verify" value="text message" />
+          <label>Текстовое сообщение</label>
+        </div>
+        <div>
+          <input type="radio" name="verify" value="phone call" />
+          <label>Телефонный звонок</label>
+        </div>
+      </div>
+
+      <label>
+        <input type="checkbox" />
+        Анонсы
+        <span class="light">
+          Получайте сообщения электронной почты и другие уведомления от Apple, в
+          том числе анонсы, рекламные материалы, рекомендации и информацию о
+          новых продуктах, программном обеспечении и услугах компании Apple.
+        </span>
+      </label>
+      <label>
+        <input type="checkbox" />
+        Приложения, музыка, ТВ и многое другое
+        <span class="light">
+          Получайте сообщения электронной почты и другие уведомления от Apple, в
+          том числе о новых релизах, эксклюзивном контенте, специальных
+          предложениях, а также рекламные материалы и рекомендации для
+          приложений, музыки, фильмов, ТВ, книг, подкастов, Apple Pay и многого
+          другого.
+        </span>
+      </label>
+
+      <button type="submit">Продолжить</button>
+    </form>
+  </body>
+</html>

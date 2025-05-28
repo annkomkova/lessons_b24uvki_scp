@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: red;
+}
+.header {
+  color: blue;
+}
+#header {
+  color: green;
+}
+
+nav a {
+  color: chocolate;
+}
+.buttonDemo {
+  width: 100px;
+  height: 44px;
+  background-color: cornflowerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.big {
+  width: 60vw;
+  height: 60vw;
+}
+.circle {
+  border-radius: 100%;
+  background-color: grey;
+  transition: all 0.6s ease;
+}
+.red {
+  background-color: red;
+}
+.small {
+  width: 10vw;
+  height: 10vw;
+}
