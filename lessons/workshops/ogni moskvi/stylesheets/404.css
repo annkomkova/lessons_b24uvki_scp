@@ -1,0 +1,20 @@
+.wrapper {
+  max-width: 1100px;
+  margin: 20vh auto;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 250px;
+  color: #ccc;
+}
+.back,
+.wrapper a {
+  color: #111;
+  text-decoration: none;
+  cursor: pointer;
+}
+.back:hover,
+.wrapper a:hover {
+  text-decoration: underline;
+}
